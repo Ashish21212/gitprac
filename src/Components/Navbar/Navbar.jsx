@@ -9,7 +9,7 @@ const Navbar = () => {
      
      </div>
 <div className="nav_menu">
-  <NavLink to='/' style={{textDecoration:'none',fontSize:'1.6rem',color:'#b800fb'}}  ><h2>KHAN<span className='pin'>PIN</span></h2></NavLink> 
+  <NavLink to='/' style={{textDecoration:'none',fontSize:'1.6rem',color:'#1E0342'}}  ><h2>KHAN<span className='pin'>PIN</span></h2></NavLink> 
    
 </div>
 <div className="login_signup">

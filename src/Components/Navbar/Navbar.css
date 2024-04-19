@@ -6,12 +6,12 @@
     margin-left: 1rem;
 }
 .nav_logo h2{
-    color: #b800fb;
+    color: #10439F;
     font-size: 2rem;
  
 }
 .pin{
-    color: rgb(57, 180, 0);
+    color: #0E46A3;
 }
 .nav_menu{
     display: flex;
