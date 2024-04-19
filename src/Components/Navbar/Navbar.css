@@ -1,45 +1,53 @@
-.navbar{
+.navbar {
     display: flex;
-
+    position: fixed;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.2);
 }
-.nav_logo{
+
+.nav_logo {
     margin-left: 1rem;
 }
-.nav_logo h2{
+
+.nav_logo h2 {
     color: #b800fb;
     font-size: 2rem;
- 
+
 }
-.pin{
+
+.pin {
     color: rgb(57, 180, 0);
 }
-.nav_menu{
+
+.nav_menu {
     display: flex;
     align-items: center;
     list-style-type: none;
-    
+
     gap: 2rem;
 }
 
-.login_signup{
+.login_signup {
     margin-left: 65rem;
     margin-top: 0.4rem;
     display: flex;
     align-items: center;
     gap: 1.3rem;
 }
-.login_signup button{
-    width:4.5rem;
+
+.login_signup button {
+    width: 4.5rem;
     height: 2rem;
     outline: none;
     border: 1px solid #7a7a7a;
     border-radius: 75px;
     color: #515151;
     font-size: 1rem;
-    font-weight:400;
+    font-weight: 400;
     background: white;
     cursor: pointer;
 }
-.login_signup button:active{
+
+.login_signup button:active {
     background: #f3f3f3;
 }
