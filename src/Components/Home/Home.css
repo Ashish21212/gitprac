@@ -1,7 +1,7 @@
 .container{
     height:70vh;
     
-    background:linear-gradient(180deg,#0E46A3,#E1F7F5 60%);
+    background:linear-gradient(180deg,#9AC8CD,#E1F7F5 60%);
     display: flex;
 }
 .left_container{
