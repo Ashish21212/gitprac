@@ -56,12 +56,12 @@ const Navbar = () => {
             <li className="item">Follow Us:</li>
             <ul className="socialHandles">
               <li className="handles">
-                <a href="www.facebook.com">
+                <a href="https://www.facebook.com/" target="_blank">
                   <img src="../Assets/facebook.png" alt="Social Media Handle" />
                 </a>
               </li>
               <li className="handles">
-                <a href="instagram.com">
+                <a href="https://www.instagram.com/"  target="_blank">
                   <img
                     src="../Assets/instagram.png"
                     alt="Social Media Handle"
@@ -69,12 +69,12 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="handles">
-                <a href="twitter.com">
+                <a href="https://twitter.com/"  target="_blank">
                   <img src="../Assets/twitter.png" alt="Social Media Handle" />
                 </a>
               </li>
               <li className="handles">
-                <a href="youtube.com">
+                <a href="https://www.youtube.com/ "  target="_blank">
                   <img src="../Assets/youtube.png" alt="Social Media Handle" />
                 </a>
               </li>
