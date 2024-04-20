@@ -2,6 +2,11 @@ import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 
+document.addEventListener("scroll", () => {
+  document.querySelector(".burgerMenu").classList.remove("show");
+  document.querySelector(".burgerIcon").classList.remove("change");
+});
+
 const Navbar = () => {
   return (
     <>
@@ -9,9 +14,17 @@ const Navbar = () => {
         <div
           className="burgerIcon"
           onClick={() => {
-            console.log(document.querySelector(".burgerMenu").classList);
-            document.querySelector(".burgerMenu").classList.toggle("show");
-            document.querySelector(".burgerIcon").classList.toggle("change");
+            if (
+              document.querySelector(".burgerMenu").classList.contains("show")
+            ) {
+              document.querySelector(".burgerMenu").classList.remove("show");
+              document.querySelector(".burgerIcon").classList.remove("change");
+            } else {
+              document.querySelector(".burgerMenu").classList.add("show");
+              document.querySelector(".burgerIcon").classList.add("change");
+            }
+            // document.querySelector(".burgerMenu").classList.toggle("show");
+            // document.querySelector(".burgerIcon").classList.toggle("change");
           }}
         >
           <div className="bar1 bar"></div>
@@ -44,22 +57,25 @@ const Navbar = () => {
             <ul className="socialHandles">
               <li className="handles">
                 <a href="www.facebook.com">
-                  <img src="../Image/facebook.png" alt="Social Media Handle" />
+                  <img src="../Assets/facebook.png" alt="Social Media Handle" />
                 </a>
               </li>
               <li className="handles">
                 <a href="instagram.com">
-                  <img src="../Image/instagram.png" alt="Social Media Handle" />
+                  <img
+                    src="../Assets/instagram.png"
+                    alt="Social Media Handle"
+                  />
                 </a>
               </li>
               <li className="handles">
                 <a href="twitter.com">
-                  <img src="../Image/twitter.png" alt="Social Media Handle" />
+                  <img src="../Assets/twitter.png" alt="Social Media Handle" />
                 </a>
               </li>
               <li className="handles">
                 <a href="youtube.com">
-                  <img src="../Image/youtube.png" alt="Social Media Handle" />
+                  <img src="../Assets/youtube.png" alt="Social Media Handle" />
                 </a>
               </li>
             </ul>

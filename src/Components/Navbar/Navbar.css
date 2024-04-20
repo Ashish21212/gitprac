@@ -3,7 +3,8 @@
 .navbar {
     display: flex;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     align-items: center;
     width: 100vw;
     background: rgba(0, 0, 0, 0.2);
@@ -55,6 +56,10 @@
 
 .show {
     display: block;
+}
+
+.hide {
+    display: none;
 }
 
 .btn {
