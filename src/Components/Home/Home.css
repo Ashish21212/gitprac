@@ -1,7 +1,7 @@
 .container{
-    height:100vh;
+    height:70vh;
     
-    background:linear-gradient(180deg,#68ff9d,#dcff2b22 60%);
+    background:linear-gradient(180deg,#9AC8CD,#E1F7F5 60%);
     display: flex;
 }
 .left_container{
@@ -22,11 +22,11 @@
 .right_container{
     flex: 1;
     display: flex;
-    margin-top: 15rem;
+    margin-top: 10rem;
    
 }
 .right_container img{
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
     border-radius: 100%;
 }

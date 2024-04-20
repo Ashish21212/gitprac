@@ -99,6 +99,30 @@ const Navbar = () => {
             <button>Sign up</button>
           </NavLink>
         </div>
+        <div className="nav_logo"></div>
+        <div className="nav_menu">
+          <NavLink
+            to="/"
+            style={{
+              textDecoration: "none",
+              fontSize: "1.6rem",
+              color: "#1E0342",
+            }}
+          >
+            <h2>
+              KHAN<span className="pin">PIN</span>
+            </h2>
+          </NavLink>
+        </div>
+        <div className="login_signup">
+          <NavLink to="/login">
+            <button>Login</button>
+          </NavLink>
+          <NavLink to="/signup">
+            <button>Signup</button>
+          </NavLink>
+        </div>
+        >>>>>>> b5aad1b42e1efd59f9b50579c2ccf57efe8a482f
       </div>
     </>
   );
