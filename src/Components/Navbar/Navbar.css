@@ -16,7 +16,6 @@
     margin: 0 15px;
     cursor: pointer;
 }
-<<<<<<< HEAD
 
 .bar {
     height: 3px;
@@ -115,14 +114,11 @@
 
 .nav_menu h2 {
     color: #b800fb;
-=======
-.nav_logo h2{
-    color: #10439F;
->>>>>>> b5aad1b42e1efd59f9b50579c2ccf57efe8a482f
     font-size: 2rem;
 
 }
-.pin{
+
+.pin {
     color: #1E0342;
 }
 

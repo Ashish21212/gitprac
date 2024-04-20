@@ -44,34 +44,22 @@ const Navbar = () => {
             <ul className="socialHandles">
               <li className="handles">
                 <a href="www.facebook.com">
-                  <img
-                    src="../../public/Image/facebook.png"
-                    alt="Social Media Handle"
-                  />
+                  <img src="../Image/facebook.png" alt="Social Media Handle" />
                 </a>
               </li>
               <li className="handles">
                 <a href="instagram.com">
-                  <img
-                    src="../../public/Image/instagram.png"
-                    alt="Social Media Handle"
-                  />
+                  <img src="../Image/instagram.png" alt="Social Media Handle" />
                 </a>
               </li>
               <li className="handles">
                 <a href="twitter.com">
-                  <img
-                    src="../../public/Image/twitter.png"
-                    alt="Social Media Handle"
-                  />
+                  <img src="../Image/twitter.png" alt="Social Media Handle" />
                 </a>
               </li>
               <li className="handles">
                 <a href="youtube.com">
-                  <img
-                    src="../../public/Image/youtube.png"
-                    alt="Social Media Handle"
-                  />
+                  <img src="../Image/youtube.png" alt="Social Media Handle" />
                 </a>
               </li>
             </ul>
@@ -122,7 +110,6 @@ const Navbar = () => {
             <button>Signup</button>
           </NavLink>
         </div>
-        >>>>>>> b5aad1b42e1efd59f9b50579c2ccf57efe8a482f
       </div>
     </>
   );
