@@ -1,15 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Franklin&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .navbar {
     display: flex;
-    position: fixed;
+    align-items: center;
+    position: absolute;
+    align-items: center;
     width: 100vw;
     background: rgba(0, 0, 0, 0.2);
+    height: 3rem;
+    font-family: "Noto Sans", sans-serif;
 }
 
-.nav_logo {
-    margin-left: 1rem;
+.burgerIcon {
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
 }
 
-.nav_logo h2 {
+.bar {
+    height: 3px;
+    width: 28px;
+    margin: 2.8px 5px;
+    background: black;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 6.2px) rotate(45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -6.2px) rotate(-45deg);
+}
+
+.burgerMenu {
+    /* display: block; */
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    /* background-color: rgb(246, 246, 246); */
+    top: 3rem;
+    height: 100vh;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 18vw;
+    padding: 14px;
+    transition: 0.4s;
+}
+
+.show {
+    display: block;
+}
+
+.btn {
+    display: block;
+    height: 3.2rem;
+    width: 15vw;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.menuItem {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.item {
+    list-style-type: none;
+    margin: 1.2rem 0;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.burgerMenuFooter {
+    position: absolute;
+    bottom: 15vh;
+}
+
+.socialHandles {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.handles {
+    margin-right: 7px;
+}
+
+.handles a img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav_menu h2 {
     color: #b800fb;
     font-size: 2rem;
 
